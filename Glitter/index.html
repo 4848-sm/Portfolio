@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Glitter - Profolio</title><!--グリッター（ラメ・キラキラ光る）-->
+    <meta name="description" content="テキストテキストテキスト">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="" href=""> -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">    
+</head>
+
+<body>
+    <header id="header">
+        <h1 class="site-title"><a href="index.html"><img src="img/main.png" alt="Glitter"></a></h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li><!--～について-->
+                <li><a href="#works">Works</a></li><!--作品例-->
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank">                        
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="mainvisual">
+            <picture>
+                <source media="(max-width: 600px)" srcset="img/profile.png">
+                <img src="img/profile.png" alt="テキストテキスト">
+            </picture>
+        </div>
+
+        <search id="about" class="wrapper">
+            <h2 class="sec-title">About</h2>
+            <ul>
+                <li>--name--</li>
+                <li>tel: 123-4567-8910</li>
+                <li>mail: xxx@xxx.co.jp</li>
+            </ul>
+            <p>親子で楽しめるボディジュエリーです。</p>
+            <p>お子様や敏感肌の方にもやさしいジュエリーを使用し</p>
+            <p>かわいいデザインとたくさんのラメでおしゃれ体験をお届けします。</p>
+            <p> ママやお友達もぜひご一緒に特別な体験を。
+            </p>
+        </search>
+        <section id="works" class="wrapper">
+            <h2 class="sec-title">Works</h2>
+            <ul>
+                <li>
+                    <img src="img/Ssize.png" alt="">
+                <p>Sサイズ</p> <p>￥500</p> 
+                </li>
+                <li>
+                    <img src="img/Msize.png" alt="">
+                <p>Mサイズ</p> <p>￥1000</p> 
+                </li>
+                <li>
+                    <img src="img/Lsize.png" alt="">
+                <p>Lサイズ</p> <p>￥1500</p> 
+                </li>
+            </ul>
+        </section>
+
+        <section id="news" class="wrapper">
+            <h2 class="sec-title">news</h2>
+            <dl>
+                <dt>2025.xx.xx</dt>
+                <dd>xx市フェスティバル</dd>
+                <dt>2025.xx.xx</dt>
+                <dd>xxxxxマルシェ</dd>
+                <dt>2025.xx.xx</dt>
+                <dd>xxxxxフェスタ</dd>
+                <dt>2025.xx.xx</dt>
+                <dd>xxxxショッピングモール～夏休みイベント～</dd>
+            </dl>
+        </section>
+
+        <section id="contact" class="wrapper">
+            <h2 class="sec-title">Contact</h2>
+            <form action="#" method="post">
+                <dl>
+                    <dt><label for="name">NAME</label></dt>
+                    <dd><input type="text" id="name" name="your-name"></dd>
+                    <dt><label for="email">E-mail</label></dt>
+                    <dd><input type="email" id="email" name="your-email"></dd>
+                    <dt><label for="message">MESSAGE</label></dt>
+                    <dd><textarea id="message" name="youe-message"></textarea></dd>
+                </dl>
+                <div class="button"><input type="submit" value="送信"></div>
+            </form>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p>&copy; Glitter</p>
+    </footer>
+    
+</body>
+</html>
