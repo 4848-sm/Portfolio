@@ -2,52 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-        <title>ポートフォリオ | 自己紹介とコーディング仕様</title>
+        <title>ポートフォリオ | Webサイト制作実績</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <header>
-        <h1>[笛田 真由美]のポートフォリオ</h1>
+        <h1>[笛田 真由美]のポートフォリオ：Web制作実績</h1>
     </header>
 
     <section id="profile">
         <h2>プロフィール</h2>
-        <p>現在、職業訓練校にて、クラウドシステム開発/管理の学習中です。</p>
-        <p>学習中のスキルJavaScript/HTML/CSS/AWS/Linux</p>
+        <p>現在、職業訓練校にてクラウドシステム開発および管理を学習しています。
+        インフラからフロントエンドまで幅広く理解を深めるため、以下のスキルを習得中です。</p>
+        <p>学習中のスキル： JavaScript, HTML, CSS, AWS, Linux</p>
     </section>  
 
+
     <section id="project-background">
-    <h2>制作の背景</h2>
+    <h2>制作物：ボディジュエリー「Glitter」紹介サイト</h2>
     <ul>
-        <li><strong>制作の目的：</strong> 
-            HTML/CSSの基礎習得、およびレスポンシブ実装の技術向上を目的として制作しました
+        <li><strong>制作の目的</strong> 
+            <p>HTML/CSSの基礎習得、およびレスポンシブ実装の技術向上。</p> 
         </li>
-        <li><strong>コンセプト：</strong> 
-            店舗を持たず、イベント出展活動をする美容サービスの友人をモデルに設定。
+        <li><strong>コンセプト</strong> 
+            <p>「親子で楽しめるボディジュエリー」をテーマに、店舗を持たずイベント出展を中心に活動する友人をモデルとして設定しました。</p> 
         </li>
-        <li><strong>ターゲットと課題：</strong> 
-            20～40代の子育て世代をターゲット。
-            スマホ画面でも出店情報を閲覧しやすい「視認性の高いサイト」を目指しました。
+        <li><strong>ターゲットと課題</strong> 
+            <p>20～40代の子育て世代。</p> 
+            <p>外出先やスマートフォンの小さな画面でも、出店情報（News）やメニュー内容（Works）を素早く正確に確認できる「視認性の高いサイト」を目指しました。</p>
         </li>
     </ul>
 </section>
 
-    <section id="specifications">
-        <h2>コーディング仕様</h2>
 
-        <div class="spec-item">
-            <h3>レスポンシブ設計</h3>
-            <p>画面幅600pxを境にflexboxを用いてレイアウトを縦方向に最適化しました。</p>
-        </div>
-        <div class="spec-item">
-            <h3>命名規則</h3>
-            <p>「.site-title]や「.sec-title」のように、名前を見ただけで役割が特定できるようルールを統一し、コードの読みやすさと管理のしやすさを意識しました。</p>
-        </div>
-        <div class="spec-item">
-            <h3>工夫した点</h3>
-            <p>余白の再設計： 「.wrapper」 の margin-bottom を 70px にするなど、スマホの小さな画面でも情報が詰まりすぎて苦しくならないよう、ゆとりを持たせました。</p>
-            <p>画像：ＰＣでは横並びに配置、スマホ画面では縦一列にしました。</p>
-        </div>
+    <section id="specifications">
+        <h2>コーディング仕様と技術的工夫</h2>
+        <ul>
+
+            <li><strong>レスポンシブ設計（Mobile Firstの意識）</strong>
+            <p>画面幅600pxをブレイクポイントとし、Flexboxを用いてレイアウトを最適化しました。</p>
+        </li>
+
+            <li><strong>画像配置の切り替え</strong>
+            <p>PC環境では要素を横並びに配置して情報の密度を高め、スマホ画面では縦一列に配置することで、誤タップを防ぎスクロールに
+よる閲覧性を向上させました。</p>
+        </li>
+
+            <li><strong>保守性を高める命名規則</strong>
+            <p>「.site-title]や「.sec-title」など、クラス名を見ただけで役割が特定できるルールを統一。自分以外の開発者がコードを読んでも、構造を即
+座に把握・管理できるよう意識して制作しました。</p>
+        </li>
+        
+
+        <section id="specifications">
+        <h2>ユーザー体験（UX）へのこだわり</h2>
+
+            <li><strong>余白の再設計</strong>
+            <p>ソース内の「.wrapper」に margin-bottom: 70px を設定するなど、スマホ画面において情報が密集しすぎないよう十分な余白を確保しました。
+これにより、視覚的な圧迫感を軽減し、スムーズな情報収集をサポートします。</p>
+            <li><strong>具体的なコンテンツ構成</strong>
+            <p>サービス内容（S/M/Lサイズ別の価格表記）や、最新のイベント出店情報（Newsセクション）を整理して掲載し、初めての利用者で
+も安心して申し込めるよう配慮しました。</p>
+        </li>
         <p><a href="https://github.com/4848-sm/Portfolio/">Githubでコードを見る</a></p>
         <p><a href="https://4848-sm.github.io/Portfolio/Glitter">デモはこちら</a></p>
 
